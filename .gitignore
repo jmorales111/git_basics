@@ -1,0 +1,3 @@
+# .gitignore file in the repository directory
+*.class
+*~ 
