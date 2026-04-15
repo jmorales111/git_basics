@@ -9,6 +9,8 @@ public class Product {
 		this.price = price;
        }
 
+       public String getId(){ return id;}
+
        @Override
        public String toString(){
 	System.out.println("ID="+id+", NAME="+name+", PRICE="+price");
