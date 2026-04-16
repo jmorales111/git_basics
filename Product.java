@@ -11,6 +11,8 @@ public class Product {
 
        public String getId(){ return id; }
        public String getName() { return name;}
+       public float getPrice() { return price;}
+
 
        @Override
        public String toString(){
