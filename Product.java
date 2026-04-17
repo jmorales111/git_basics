@@ -13,6 +13,10 @@ public class Product {
        public String getName() { return name;}
        public float getPrice() { return price;}
 
+       public void setPrice(float price) {
+           this.price = price;	
+       }
+
 
        @Override
        public String toString(){
