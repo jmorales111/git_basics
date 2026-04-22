@@ -30,7 +30,7 @@ For this example, we need a GitHub account and a Personal access token.
 ```shell
 $ brew install git  
 
-$ git \--version
+$ git --version
 ``` 
 
 	git version 2.42.1   
