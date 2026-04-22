@@ -28,9 +28,9 @@ For this example, we need a GitHub account and a Personal access token.
 	             
 		
 
-| $ brew install git  
+$ brew install git  
 
-| $ git \--version  
+$ git \--version  
 
 |	git version 2.42.1   
 
