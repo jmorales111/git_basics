@@ -39,8 +39,17 @@ $ git --version
 
 2. ### **Use a folder for our project** t**hen configure Git**, for example: Downloads/Git/laboratorios/lab1, then configure global settings
 
-| \# This are global configurations for all Git repositories on your machine\# After this configuration, the changes are stored in .gitconfig in your home directory:$ ls \-la \~  ...  .gitconfig  ...$ cd Downloads/Git/laboratorios/lab1$ git config \--global user.name "Javier Morales"$ git config \--global user.email "javier.morales@codifika.com.mx" |
-| :---- |
+| \# This are global configurations for all Git repositories on your machine\# After this configuration, the changes are stored in .gitconfig in your home directory:
+```shell
+$ ls \-la \~
+   ...
+   .gitconfig
+   ...
+   $ cd Downloads/Git/laboratorios/lab1
+   $ git config --global user.name "Javier Morales"
+   $ git config --global user.email "javier.morales@codifika.com.mx"
+```
+
 
    *NOTE:  You can adjust the settings in each of your repositories to be different from the default data. For this task, use cd to change to the directory in question and run git config again, but this time without the \--global option.*
 
