@@ -53,7 +53,7 @@ $ ls \-la \~
 
    *NOTE:  You can adjust the settings in each of your repositories to be different from the default data. For this task, use cd to change to the directory in question and run git config again, but this time without the \--global option.*
 
-| \# Review your configuration settings  
+# Review your configuration settings  
 ```shell
 $ git config --list |
 ```
@@ -61,11 +61,14 @@ $ git config --list |
 3. ### **Create a local repository and the first file**
 
    
-
-| $ cd Downloads/Git/laboratorios/lab1$ git init .$ ls \-la    ...    .git    ... |
-| :---- |
-|  |
-
+```shell
+$ cd Downloads/Git/laboratorios/lab1  
+$ git init .  
+$ ls -la
+   ...  
+   .git    
+   ...
+```
 	*NOTE:*
 
 * *Using 'master' as the name for the initial branch is not common*  
