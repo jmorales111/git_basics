@@ -55,7 +55,7 @@ $ ls \-la \~
 
 # Review your configuration settings  
 ```shell
-$ git config --list |
+$ git config --list 
 ```
 
 3. ### **Create a local repository and the first file**
