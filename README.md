@@ -27,13 +27,13 @@ For this example, we need a GitHub account and a Personal access token.
 
 	             
 		
-
+```shell
 $ brew install git  
 
 $ git \--version  
 
 	git version 2.42.1   
-
+```
 
 
 2. ### **Use a folder for our project** t**hen configure Git**, for example: Downloads/Git/laboratorios/lab1, then configure global settings
