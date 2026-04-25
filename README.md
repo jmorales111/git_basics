@@ -98,13 +98,26 @@ $ vi Main.java
 	
 ```shell
 $ git status
-On branch masterNo commits yetUntracked files:(use "git add \<file\>..." to include in what will be committed)			Main.javanothing added to commit but untracked files present (use "git add" to track) add Main.java |
-| :---- |
+On branch master
+No commits yet
+Untracked files:
+(use "git add \<file\>..." to include in what will be committed)
+			Main.java
+nothing added to commit but untracked files present (use "git add" to track) add Main.java
+```
 
 ```shell
+# The file is on stage
+$ git add Main.java
 
-| \# The file is on stage  $ git add Main.java$ git statusOn branch masterNo commits yetChanges to be committed:(use "git rm \--cached \<file\>..." to unstage)			new file:   Main.java |
-| :---- |
+$ git status
+On branch master
+No commits yet
+
+Changes to be committed:
+(use "git rm \--cached \<file\>..." to unstage)
+			new file:   Main.java  
+```
 
 5. ### **Create a commit (snapshot) , so you can restore later. Modify again the same file**
 
@@ -114,14 +127,31 @@ On branch masterNo commits yetUntracked files:(use "git add \<file\>..." to i
 * **As a best practice, add a short comment for each commit (-m)**  
 * Git commit **displays a “short version” of the SHA-1 hash**, often the first 7 or 8 characters, which is usually sufficient to uniquely identify a commit within a repository.
 
-| $ git commit \-m 'initial commit, hello'\[master (root-commit) 382c620\] initial commit, hello		 1 file changed, 5 insertions(+)		 create mode 100644 Main.java$ git status		On branch master		nothing to commit, working tree clean |
-| :---- |
-
+```shell
+$ git commit \-m 'initial commit, hello'
+[master (root-commit) 382c620\] initial commit, hello
+		 1 file changed, 5 insertions(+)
+		 create mode 100644 Main.java
+$ git status
+		On branch master
+		nothing to commit, working tree clean 
+```
 	
+```shell
+# Create a new file, stage and commit
+$ vi Product.java
+public class Product {
+	private String id;
+	private String name;
+	private float price;
 
-| \# Create a new file, stage and commit $ vi Product.javapublic class Product {	private String id;	private String name;	private float price;     public Product(String id, String name, float price) {       	this.id \= id;	 	this.name \= name;		this.price \= price;     }} |
-| :---- |
-
+    public Product(String id, String name, float price) {
+       	this.id \= id;
+    	this.name \= name;
+		this.price \= price;
+     }
+} 
+```
 	
 
 | $ git add Product.java$ git commit \-m 'added Product class' |
