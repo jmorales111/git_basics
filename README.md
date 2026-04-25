@@ -13,7 +13,7 @@ For this example, we need a GitHub account and a Personal access token.
 
 ## 3\. Before we begin
 
-* ## In the past, the branch master was automatically set up in each Git repository, today **main** is the common.
+* In the past, the branch master was automatically set up in each Git repository, today **main** is the common.
 
 ## 4\. Steps
 
@@ -31,11 +31,11 @@ For this example, we need a GitHub account and a Personal access token.
 $ brew install git  
 
 $ git --version
-``` 
+
 
 		git version 2.42.1     
 	
-
+``` 
 
 2. ### **Use a folder for our project** t**hen configure Git**, for example: Downloads/Git/laboratorios/lab1, then configure global settings
 
@@ -84,17 +84,24 @@ $ ls -la
 	  
 	Create the following file using vi or your preferred editor:
 
-| $ vi Main.java  public class Main {    	public static void main(String\[\] args) {    		System.out.println("Hola");     }  } |
-| :---- |
+```shell
+$ vi Main.java
+	public class Main {
+	   public static void main(String\[\] args) {
+         System.out.println("Hola");
+       }
+    } 
+```
 
 4. ### **Add the file to a repository, review the status untracked**
 
 	
-
-| $ git statusOn branch masterNo commits yetUntracked files:(use "git add \<file\>..." to include in what will be committed)			Main.javanothing added to commit but untracked files present (use "git add" to track) add Main.java |
+```shell
+$ git status
+On branch masterNo commits yetUntracked files:(use "git add \<file\>..." to include in what will be committed)			Main.javanothing added to commit but untracked files present (use "git add" to track) add Main.java |
 | :---- |
 
-	
+```shell
 
 | \# The file is on stage  $ git add Main.java$ git statusOn branch masterNo commits yetChanges to be committed:(use "git rm \--cached \<file\>..." to unstage)			new file:   Main.java |
 | :---- |
