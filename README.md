@@ -123,10 +123,10 @@ Changes to be committed:
 5. ### **Create a commit (snapshot) , so you can restore later. Modify again the same file**
 
      
-* In Git, a SHA-1 hash is a unique 40-character hexadecimal identifier displayed for every commit  
-* Git commit performs a commit only on the local repository, no data is transferred to an external repository.   
-* **As a best practice, add a short comment for each commit (-m)**  
-* Git commit **displays a “short version” of the SHA-1 hash**, often the first 7 or 8 characters, which is usually sufficient to uniquely identify a commit within a repository.
+*  In Git, a SHA-1 hash is a unique 40-character hexadecimal identifier displayed for every commit  
+*  Git commit performs a commit only on the local repository, no data is transferred to an external repository.   
+*  **As a best practice, add a short comment for each commit (-m)**  
+*  Git commit **displays a “short version” of the SHA-1 hash**, often the first 7 or 8 characters, which is usually sufficient to uniquely identify a commit within a repository.
 
 ```shell
 $ git commit -m 'initial commit, hello'
