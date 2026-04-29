@@ -72,9 +72,9 @@ $ ls -la
 ```
 
 *NOTE:*  
-		* Using 'master' as the name for the initial branch is not common  
-		* This default branch name is subject to change. **In step 9 we change from master to main**   
-		* To configure the initial branch name to use in all of your new repositories, which will suppress this warning, call:  
+* Using 'master' as the name for the initial branch is not common  
+* This default branch name is subject to change. **In step 9 we change from master to main**   
+* To configure the initial branch name to use in all of your new repositories, which will suppress this warning, call:  
 
   		$ git config --global init.defaultBranch <name>*
 
