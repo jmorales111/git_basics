@@ -41,7 +41,7 @@ $ git --version
 
 | \# This are global configurations for all Git repositories on your machine\# After this configuration, the changes are stored in .gitconfig in your home directory:
 ```shell
-$ ls \-la \~
+$ ls -la ~
    ...
    .gitconfig
    ...
