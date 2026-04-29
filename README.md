@@ -165,18 +165,18 @@ $ git commit -m 'added Product class'
 # SHA-1 hash is a unique 40-character hexadecimal identifier
 # git commit only displays the first 7 characters from SHA-1
 $ git log
-commit 1d985bcfd97a288eac45e8cd576068ae17a67dd2 (HEAD \-\> master)
+commit 1d985bcfd97a288eac45e8cd576068ae17a67dd2 (HEAD -> master)
 Author: Javier Morales <javier.morales@codifika.com.mx>
 Date:   Wed Apr 15 12:22:36 2026 0600
     added Product class
 commit 382c6204729e7750027d06bcbae05792d6454369
-Author: Javier Morales \<javier.morales@codifika.com.mx\>
+Author: Javier Morales <javier.morales@codifika.com.mx>
 Date:   Wed Apr 15 12:15:28 2026 -0600
 initial commit, hello
 
 # Only displays the first 7 characters from SHA-1
 
-$ git log \--oneline
+$ git log --oneline
 	1d985bc added Product class
     382c620 initial commit, hello
 ```
