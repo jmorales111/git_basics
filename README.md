@@ -188,8 +188,8 @@ $ git log --oneline
 
 7. ###  **Exclude files from Git Management**
 
-1. Create a file .gitignore to exclude files from version control. We are excluding \*.class files and files ending with \*\~ in the following example  
-2. For more information and .gitignore examples:  
+  a. Create a file .gitignore to exclude files from version control. We are excluding \*.class files and files ending with \*\~ in the following example  
+  b. For more information and .gitignore examples:  
      
    [https://github.com/github/gitignore/tree/main](https://github.com/github/gitignore/tree/main)  
    
