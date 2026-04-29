@@ -116,7 +116,7 @@ On branch master
 No commits yet
 
 Changes to be committed:
-(use "git rm \--cached \<file\>..." to unstage)
+(use "git rm --cached <file>..." to unstage)
 			new file:   Main.java  
 ```
 
@@ -129,7 +129,7 @@ Changes to be committed:
 * Git commit **displays a “short version” of the SHA-1 hash**, often the first 7 or 8 characters, which is usually sufficient to uniquely identify a commit within a repository.
 
 ```shell
-$ git commit \-m 'initial commit, hello'
+$ git commit -m 'initial commit, hello'
 [master (root-commit) 382c620\] initial commit, hello
 		 1 file changed, 5 insertions(+)
 		 create mode 100644 Main.java
