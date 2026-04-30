@@ -16,6 +16,6 @@ public class Product {
 
        @Override
        public String toString(){
-	System.out.println("ID="+id+", NAME="+name+", PRICE="+price");
+	System.out.println("ID="+id+", NAME="+name+", PRICE="+price);
        }
 }
