@@ -739,8 +739,8 @@ $ git config --global http.postBuffer 524288000
 
 $ git branch -M main
 $ git push -u origin main
-	 	username: <username_not_email\>
-	 	password: <your_token\>
+	 	username: <username_not_email>
+	 	password: <your_token>
 ```
 
 ### **27\. Connect to GitHub, and verify which branch appears (main, my-feature2, my-feature3)**
