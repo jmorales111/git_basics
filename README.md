@@ -765,7 +765,7 @@ When you push to GitHub, only the branch you’re currently on gets uploaded unl
 # For a specific branch
 $ git push -u origin branch-name
 
-\# All branches
+# All branches
 $ git push --all origin
 ```
 
