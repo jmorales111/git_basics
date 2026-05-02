@@ -812,7 +812,8 @@ $ git log --graph --decorate --oneline --all --branches
 *20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bc&nbsp;&nbsp;&nbsp;&nbsp;82&nbsp;&nbsp;&nbsp;&nbsp;89&nbsp;&nbsp;&nbsp;&nbsp;39&emsp;&ensp;f7&emsp;&nbsp;d8&emsp;&emsp;&emsp;ee&emsp;2a*  
 *&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;|&emsp;&nbsp;&nbsp;|<-C11(h->f4)*  
 *&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;|&emsp;&nbsp;&nbsp;|&emsp;&nbsp;&nbsp;74*
-                                                                      *|      |*  
+*&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;|&emsp;&nbsp;&nbsp;v*  
+
                                                                       *|\<-C9(o/f3,f3)*  
                                                                            *53*
 
