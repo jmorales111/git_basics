@@ -895,8 +895,7 @@ $ git log --graph --decorate --oneline --all --branches
 *&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;|&emsp;&nbsp;&nbsp;|<-C11<-C12(**h->f4**)*  
 *&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;|&emsp;&nbsp;&nbsp;|&emsp;&nbsp;74&emsp;&nbsp;2b*  
 *&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;|&emsp;&nbsp;&nbsp;v*  
-
-                                                                      *|\<-C9(o/f3,f3)*  
+*&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;|<-C9(o/f3,f3)*  
                                                                            *53*
 
 ### **33\. Push to GitHub after creating a branch**
