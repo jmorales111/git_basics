@@ -704,15 +704,15 @@ $ git log --graph --decorate --oneline --all --branches
 
 ### **24\. Create a remote repository in GitHub**
 
-	Using GitHub create a public repository:
+Using GitHub create a public repository:
 
-		\- General: jmorales111/lab1demo  
-		\- Description: Test repository  
-		\- Visibility: Public  
-		\- Add README: OFF  
-		\- No .gitignore  
-		\- No license  
-		\- Click “Create repository”
+- General: jmorales111/lab1demo  
+- Description: Test repository  
+- Visibility: Public  
+- Add README: OFF  
+- No .gitignore  
+- No license  
+- Click “Create repository”
 
 		NOTE: DO NOT ADD ANY CONTENT TO THIS REPOSITORY
 
