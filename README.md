@@ -771,7 +771,7 @@ $ git push --all origin
 
 ### **29\. Refresh the GitHub page and review all branches appear**
 
-	In GitHub, click to your avatar icon (right upper corner) \-\> Profile
+In GitHub, click to your avatar icon (right upper corner) \-\> Profile
 
 * Click Repositories tab  
 * Click lab1demo  
