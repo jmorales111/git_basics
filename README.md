@@ -714,7 +714,7 @@ Using GitHub create a public repository:
 - No license  
 - Click “Create repository”
 
-		NOTE: DO NOT ADD ANY CONTENT TO THIS REPOSITORY
+NOTE: DO NOT ADD ANY CONTENT TO THIS REPOSITORY
 
 ### **25\. Link our local repository to a remote repository**
 
@@ -723,7 +723,7 @@ Using GitHub create a public repository:
 $ git remote add origin  https://github.com/jmorales111/lab1demo.git
 
 # If you need to update the URL
-$ git remote set\-url origin https://github.com/jmorales111/lab1demo.git
+$ git remote set-url origin https://github.com/jmorales111/lab1demo.git
 # Verification
 $ git remote -v 
 ```
