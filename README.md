@@ -893,7 +893,7 @@ $ git log --graph --decorate --oneline --all --branches
 *C1<-C2<-C3<-C4<-C5<-C6<-C7(o/f2,f2)<-C8<-C10(**o/m,m**)*  
 *20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bc&nbsp;&nbsp;&nbsp;&nbsp;82&nbsp;&nbsp;&nbsp;&nbsp;89&nbsp;&nbsp;&nbsp;&nbsp;39&emsp;&ensp;f7&emsp;&nbsp;d8&emsp;&emsp;&emsp;ee&emsp;2a*  
 *&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;|&emsp;&nbsp;&nbsp;|<-C11<-C12(**h->f4**)*  
-*&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;|&emsp;&nbsp;&nbsp;|&emsp;&emsp;74&emsp;&emsp;2b*  
+*&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;|&emsp;&nbsp;&nbsp;|&emsp;74&emsp;2b*  
 
                                                                       *|     v*  
                                                                       *|\<-C9(o/f3,f3)*  
