@@ -1,8 +1,9 @@
 # 39 Steps for basic Git/GitHub understanding
+![Git & GitHub: Versioning](info/Extrabanner.png)
 
 ## 1\. Introduction
 
-If you need to integrate a project with Git and GitHub and also a fast involvement in this amazing technology, here we have 34 steps for basic Git/GitHub understanding.  
+If you need to integrate a project with Git and GitHub and also a fast involvement in this amazing technology, here we have 39 steps for basic Git/GitHub understanding.  
 
 ## 2\. Requirements
 
@@ -1193,16 +1194,16 @@ C1<-C2<-C3<-C4<-C5<-C6<-C7(**o/f2,f2**)<-C8<-C10<-C13 (**h-\>m,o/m**)
 36. ### **Open your project using Visual Studio Code Editor**
 
 	In Visual Studio Code Editor, add the following extension:  
-	![][image1]
+	![Git Graph extension](info/Extrabannervsextension.png)
 
 - In Visual Studio Code Editor, go to File menu-Open Folder…. Navigate to our project folder Downloads/Git/laboratorios/lab1  
 - In the lower left area, click Git Graph
 
-![][image2]
+![VSCE Status Bar](info/ExtrabannervsStatusBar.png)
 
 - Review all Git changes:
 
-![][image3]
+![Git Graph Output](/info/ExtrabannerGitGraphOutput.png)
 <br/>
 <br/>
 
