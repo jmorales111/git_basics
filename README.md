@@ -1,4 +1,4 @@
-# 36 Steps for basic Git/GitHub understanding
+# 39 Steps for basic Git/GitHub understanding
 
 ## 1\. Introduction
 
