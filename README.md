@@ -1254,6 +1254,71 @@ $ git push --all origin
 <br/>
 <br/>
 
+39. ### **In GitHub update README.md**  
+In the GitHub web site, update your README.md file and then update your local project  
+```shell
+$ git push --all origin
+ 
+To https://github.com/jmorales111/git_basics.git
+   	! [rejected]    	main -> main (fetch first)
+  	error: failed to push some refs to 'https://github.com/jmorales111/git_basics.git'
+  	hint: Updates were rejected because the remote contains work that you do not
+  	hint: have locally. This is usually caused by another repository pushing to
+  	hint: the same ref. If you want to integrate the remote changes, use
+  	hint: 'git pull' before pushing again.
+  	hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+```shell
+$ git pull origin main
+ 
+From https://github.com/jmorales111/git_basics
+ * branch        	main   	-> FETCH_HEAD
+   d30ca51..5fa0c8f  main   	-> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only   	# fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+```
+
+```shell
+# In this case, that message means your local branch and the remote branch (origin/main) have diverged -- each has commits the other doesn't. Git is asking you to choose how to reconcile them before pulling.
+# We want to keep both histories and create a merge commit
+ 
+$ git pull --no-rebase origin main
+
+```
+
+```shell
+# It opens and editor and type the following: Merge commit ties both  histories
+ 
+$ git log --graph --decorate --oneline --all -branches
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+ 
+$ git push --all origin
+$ git status
+
+```
+NOTE: Options for resolve divergent branches:  
+
+- Merge (default behavior), Keeps both histories and creates a merge commit.  
+- Rebase, Replays your local commits on top of the remote branch, creating a linear history.
+- Fast-Forward Only, Only pulls if your branch can be fast‑forwarded. If not, it fails.
+
+
+
 ## 5\. Best practices
 
 In production projects, the best Git branching practices center on maintaining stability, traceability, and controlled integration. The most effective workflows are [GitFlow](https://www.gitkraken.com/learn/git/git-flow), [Trunk‑Based Development](https://www.gitkraken.com/blog/trunk-based-development), and [GitHub Flow](https://medium.com/@yanminthwin/understanding-github-flow-and-git-flow-957bc6e12220), each balancing speed and safety depending on release frequency and team size.
