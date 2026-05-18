@@ -297,6 +297,16 @@ hint: use 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 ```shell
+# If you want to keep your commit history linear and avoid a "Merge branch..." commit, use rebase. This puts your new commits on top of the ones currently on GitHub.
+$ git pull --rebase origin main
+$ git push origin main
+```
+```shell
+$ git log --graph --decorate --oneline --all --branches
+
+* e71dfe9 (HEAD -> main, origin/main, origin/HEAD) Revert "Add setName(), in Product.java, fourth execution and add info/21 to info/23 files"
+* 2d241c5 Revert "Add setName, in Product.java, fourth execution"
+* 369899b Add setName, in Product.java, fourth execution
 ```
 
 
