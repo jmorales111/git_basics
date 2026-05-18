@@ -371,7 +371,7 @@ $ vi Product.java
   ...
   @Override
   public String toString(){
-     System.out.println("ID="+id+", NAME="+name+", PRICE="+price);
+     return "ID="+id+", NAME="+name+", PRICE="+price;
   }
   ...
 $ git status
@@ -415,7 +415,7 @@ $ cat Product.java
 	...
 	@Override
     public String toString(){
-		System.out.println("ID="+id+", NAME="+name+", PRICE="+price);
+		return "ID="+id+", NAME="+name+", PRICE="+price;
     }
    ... 
 
@@ -484,7 +484,7 @@ $ cat Product.java
   ...
   @Override
   public String toString(){
-	System.out.println("ID="+id+", NAME="+name+", PRICE="+price);
+	return "ID="+id+", NAME="+name+", PRICE="+price;
   }
   … 
 ```
