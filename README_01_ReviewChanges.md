@@ -88,7 +88,7 @@ $ git status
 $ cat Product.java
 ```
 
-## 4\. Undo changes after commit, without pushed yet ##
+## 5\. Undo changes after commit, without pushed yet ##
 ### a\. Add a setName method ###
 ```shell
 $ vi Product.java
@@ -174,7 +174,7 @@ $ cat Product.java
 <br/>
 <br/>
 
-## 5\. Undo changes after commit and push ##
+## 6\. Undo changes after commit and push ##
 
 ### a\. Add a setName method ###
 ```shell
@@ -230,7 +230,7 @@ $ git log --graph --decorate --oneline --all --branches
 <br/>
 <br/>
 
-## 6\. Modify the most recent commit in our current branch ##
+## 7\. Modify the most recent commit in our current branch ##
 *It effectively replaces the last commit with a new one that combines any new staged changes with the previous commit's content*
 ### a\. Modify last commit message
 ```shell
